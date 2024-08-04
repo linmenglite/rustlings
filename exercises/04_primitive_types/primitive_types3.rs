@@ -1,6 +1,10 @@
 fn main() {
     // TODO: Create an array called `a` with at least 100 elements in it.
-    // let a = ???
+    let mut a = Vec::new();
+    for _ in 0..100{
+        a.push(0);
+    }
+    
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
